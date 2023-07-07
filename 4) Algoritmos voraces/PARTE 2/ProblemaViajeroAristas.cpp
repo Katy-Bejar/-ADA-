@@ -84,7 +84,7 @@ int main() {
 
     Grafo graph(V);
 
-    cout << "Ingresar las aristas: ";
+    cout << "Ingresar las aristas: " << endl;
     for (int i = 0; i < E; i++) {
         int vert_inicio, vert_final, peso_arista;
         cin >> vert_inicio >> vert_final >> peso_arista;
